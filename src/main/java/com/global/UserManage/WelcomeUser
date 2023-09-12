@@ -1,0 +1,16 @@
+                                ##### basic user ######
+
+ 1 - should be create a class or entity  User and Role   :- relation between two classes (AppUser - Role) 
+ 2 - should be create a Repository and Services for two classes 
+ 3 - may be  create a StartUpApp for add some users for a test 
+ 4 - and Run the project for test  
+
+                                ##### security ###### 
+
+ 1 - Add dependencies :-  Spring Security - JWT 
+ 2 - Create a Class UserDetail implements from UserDetails  
+ 3 - in UserService implements UserDetailsService for add loadUserByUsername -- and should be encode a password 
+ 4 - Create a Class TokenUtil :- for add some method like generate token and expiration date and ....... look to the project
+ 5 - Create a Class AuthFilter : - for filter any Api in the project by token 
+ 6 - Create a Class SecurityConfig :- to add all Configuration
+ 7 - Create a Class AuthController 
